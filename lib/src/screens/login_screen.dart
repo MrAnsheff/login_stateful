@@ -70,7 +70,7 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin{
           keyForm.currentState.save();
 
           print('Your email:$email, and password:$password!');
-        };
+        }
       },
       child: Text('Press me!'),
     );
